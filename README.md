@@ -5,3 +5,7 @@
 + 可以連接至arduino
 + 雙人模式的互動機制
 + HOLD方塊
+## TetrisMain
+此為遊戲主程式，包含了流程、所有與pygame和arduino相關的程式。
+## TetrisClass
+此為將參考資料改寫成class，遊戲的主要邏輯包含在此。
