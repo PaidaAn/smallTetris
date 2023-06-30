@@ -1,5 +1,7 @@
 # smallTetris
 ## 注意，這是使用現成的俄羅斯方塊改出來的 [來源](https://vocus.cc/article/627f79b3fd8978000128e797)  
+### 螢幕截圖
+![alt tag](https://github.com/PaidaAn/smallTetris/edit/main/images/screenshot.png)  
 我改的部分有:  
 + 新增雙人模式
 + 可以連接至arduino
