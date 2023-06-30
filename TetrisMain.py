@@ -77,8 +77,8 @@ running = True
 #-------------------------------------------------------------------------
 #音樂設置
 #-------------------------------------------------------------------------
-pygame.mixer.music.load("TetrisMusic.wav")
-pygame.mixer.music.set_volume(0.02)
+#pygame.mixer.music.load("TetrisMusic.wav")
+#pygame.mixer.music.set_volume(0.02)
 fall_sound = pygame.mixer.Sound("down.wav")
 fall_sound.set_volume(0.04)
 clear_sound = pygame.mixer.Sound("clear.wav")
@@ -243,15 +243,15 @@ while running:
         event = pygame.event.wait()
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_1:
-                pygame.mixer.music.play(-1)
+                #pygame.mixer.music.play(-1)
                 mode = 1
             elif event.key == pygame.K_2:
-                pygame.mixer.music.play(-1)
+                #pygame.mixer.music.play(-1)
                 mode = 2
         continue
     #---------------------------------------------------------------------    
     if (mode == 3):
-        pygame.mixer.music.play(-1)
+        #pygame.mixer.music.play(-1)
         font = pygame.font.Font("msjh.ttf", 24)
         showFont( u"案1單人", 600, 250, color_white)
         showFont( u"案2雙人", 600, 300, color_white)
@@ -270,7 +270,7 @@ while running:
                 GZ1.punish_lines_number = 0
                 GZ1.resetGame()
     elif (mode == 4):
-        pygame.mixer.music.play(-1)
+        #pygame.mixer.music.play(-1)
         font = pygame.font.Font("msjh.ttf", 24)
         showFont( u"案1單人", 600, 250, color_white)
         showFont( u"案2雙人", 600, 300, color_white)
